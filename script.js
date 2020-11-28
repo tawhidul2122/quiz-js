@@ -35,7 +35,7 @@ let correct = 0;
 document.addEventListener("DOMContentLoaded", () => {
     load_question(), progress();
 });
- 
+ #to select a specific number of questions
 function load_question() {
     document.querySelector("#question").innerHTML = selected_questions[question_number].question;
     const options = document.querySelector("#options");
